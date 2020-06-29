@@ -5,19 +5,17 @@
 #include <map>
 #include <algorithm>
 #include <queue>
-/**
- * 2.
- * */
+
 using namespace std;
 
 /**
- * 判断算术右移
+ * 判断算术右移2.62
  * */
 bool int_shifts_are_arithmetic() {
     int num = -1;
     return !(num ^ (num >> 1));
 }
-
+/** 2.63 */
 /**
  * 将已经做完算术右移的结果转为逻辑右移的结果
  * */
